@@ -1,19 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="UTf-8">
+    <meta http-equiv="X-Ua-Compatible" content="iE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Html workshop</title>
+    <title>html workshop</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-    <h1>Welcome to Html workshop</h1>
-    <p>Welcome to Html workshop</p>
      <header>
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="About.html">About</a></li>
+        <h1>Welcome to html workshop</h1>
+        <nav class="nav">
+            <ul class="navlinks">
+                <li><a href="#home">home</a></li>
+                <li><a href="about.html">about</a></li>
                 <li><a href="Work">Work</a></li>
                 <li><a href="resume">resume</a></li>
                 <li><a href="Contact">Contact</a></li>
@@ -22,19 +24,24 @@
     </header>
 
     <section>
-        <div>
-            <img src="mango.png">
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum dolore dignissimos maxime enim consequatur suscipit accusantium itaque quam magni omnis ipsa, fuga sunt sit obcaecati, illo unde. Consequatur, aspernatur voluptate!</p>
+        <div class="img">
+            <img src="CareerPagePeople.jpg " alt="">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum dolore dignissimos maxime enim consequatur suscipit accusantium itaque quam magni omnis ipsa, fuga sunt sit obcaecati, illo unde. Consequatur, aspernatur voluptate!<br>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum dolore dignissimos maxime enim consequatur suscipit accusantium itaque quam magni omnis ipsa, fuga sunt sit obcaecati, illo unde. Consequatur, aspernatur voluptate!<br><br>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum dolore dignissimos maxime enim consequatur suscipit accusantium itaque quam magni omnis ipsa, fuga sunt sit obcaecati, illo unde. Consequatur, aspernatur voluptate!<br>
+
+            </p>
+            <img src="teampower.jpeg" alt="">
         </div>
     </section>
 
-    <section class="">
+    <section class="contact">
         <ol>
             <li>Name: John</li>
             <li>Last Name: Deo </li>
             <li>Email: ndinezemmanuel@gmail.com</li>
             <li>Phone Number: 08165436625</li>
-            <li>Academic Background:
+            <li>academic Background:
                 <ol>
                     <li> GoMyCode Certificate</li>
                     <li> Computer science bachelor degree</li>
@@ -49,7 +56,7 @@
 
     <section class="about">
         <form>
-            <label>Full Name</label>
+            <label>full Name</label>
             <input type="text" name="fullName" placeholder="Bata">
             <label>Email</label>
             <input type="text" name="email@gmail.com" placeholder="ndinezeemmanuel@gmail.come">
@@ -77,21 +84,35 @@
 
     <footer>
        <section>
-        <span>Hour:</span><br>
-        Fri: 06:00am -08:00pm<br>
+        <span>hour:</span><br>
+        fri: 06:00am -08:00pm<br>
         Saturday Closed
        </section> 
        <section>
-        <span>Address:</span><br>
-        464 Abule Ijesha<br>
+        <span>address:</span><br>
+        464 abule ijesha<br>
         Yaba,Lagos.
        </section> 
        <section>
-         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi, vel quibusdam nisi error eos quisquam eveniet minus? Porro, voluptates quibusdam.</p>
+        <span>About us:</span><br>
+         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+            <br>Excepturi, 
+            vel quibusdam nisi error eos quisquam <br>
+            eveniet minus? 
+            Porro, voluptates quibusdam.</p>
          <div>
-            <div class="text-center">&copy;copyright Bata Html website 2023></div>
+            <div class="text-center">&copy;copyright Bata html website 2023></div>
          </div>
-         
+       </section>
+       <section>
+        <div>
+            <ul class="social-icons">
+            <li><a class="facebook" href="#"><i class="fa fa-facebook-f"></i></a></li>
+            <li><a class="Twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+            <li><a class="Dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
+            <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
+            </ul>
+            </div>
        </section>
     </footer>
 </body>
